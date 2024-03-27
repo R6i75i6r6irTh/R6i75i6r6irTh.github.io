@@ -4,7 +4,7 @@ document.getElementById('tattooForm').addEventListener('submit', function(event)
     var formData = new FormData(this);
     
     // Send form data using Fetch API
-    fetch('https://script.google.com/macros/s/AKfycbzlmU1kjbzlF3QkJ-eaT4G63hYJNiipjAunS88yE8dGQgDywFx_kYImgrMn-BtJJcU/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwwHCgTJbBrVQ8MttxOFWE92NrTmwgYOeArQi21iRtj2w-YGF2m8MsQ9bmme68OlC-2/exec', {
         method: 'POST',
         body: formData
     })
